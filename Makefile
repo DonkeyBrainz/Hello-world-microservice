@@ -1,5 +1,6 @@
 install:
-	-m python3 pip install requirements.txt
+	 pip install --upgrade pip &&\
+	 	pip install -r requirements.txt
 
 lint: 
 	# lint code
