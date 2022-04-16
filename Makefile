@@ -3,10 +3,10 @@ install:
 	 	pip install -r requirements.txt
 
 lint: 
-	# lint code
+	black *.py
 
 test:
-	# test code
+	# testing code
 
 build:
 	# build code
