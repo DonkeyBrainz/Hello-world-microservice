@@ -3,10 +3,13 @@ install:
 	 	pip install -r requirements.txt
 
 lint: 
+	pylint --disable=R,C *.py
+	
+format:
 	black *.py
 
 test:
-	# testing code
+	python -m pytest -vv --cov=lib tests
 
 build:
 	# build code
