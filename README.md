@@ -1,0 +1,1 @@
+[![CI](https://github.com/DonkeyBrainz/Hello-world-microservice/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/DonkeyBrainz/Hello-world-microservice/actions/workflows/main.yml)
