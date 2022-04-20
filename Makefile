@@ -25,6 +25,16 @@ run:
 
 deploy: 
 	# deploy code
+	
+	
+	# DIRECT BUILD
+	# aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 305781341404.dkr.ecr.us-east-1.amazonaws.com
+	# docker build -t wikimicroservice-donkeybrainz .
+	# docker tag wikimicroservice-donkeybrainz:latest 305781341404.dkr.ecr.us-east-1.amazonaws.com/wikimicroservice-donkeybrainz:latest
+	# docker push 305781341404.dkr.ecr.us-east-1.amazonaws.com/wikimicroservice-donkeybrainz:latest
+
+	# USING CODE BUILDER
 
 all:
 	# do all things
+	install lint format test deploy
