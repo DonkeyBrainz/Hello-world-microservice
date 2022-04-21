@@ -1,6 +1,6 @@
 from fastapi import FastAPI  # pylint: disable=import-error
 import uvicorn  # pylint: disable=import-error
-from lib import function_one
+from library import function_one
 
 app = FastAPI()
 

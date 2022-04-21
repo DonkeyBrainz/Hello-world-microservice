@@ -1,5 +1,5 @@
-from lib.function_one import wiki
-from lib.function_one import search_wiki
+from library.function_one import wiki
+from library.function_one import search_wiki
 
 def test_wiki():
     assert "War" in wiki()
